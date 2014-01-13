@@ -22,7 +22,7 @@ for c in col:
 # Poll buttons, display message & set backlight accordingly
 btn = ((lcd.LEFT  , 'Red Red Wine'              , lcd.RED),
        (lcd.UP    , 'Sita sings\nthe blues'     , lcd.BLUE),
-       (lcd.DOWN  , 'I see fields\nof green'    , lcd.GREEN),
+       (lcd.DOWN  , 'I am pi'    , lcd.GREEN),
        (lcd.RIGHT , 'Purple mountain\nmajesties', lcd.VIOLET),
        (lcd.SELECT, ''                          , lcd.ON))
 prev = -1
