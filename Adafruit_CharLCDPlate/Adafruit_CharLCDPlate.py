@@ -457,11 +457,11 @@ if __name__ == '__main__':
        lcd.backlight(c[1])
        sleep(0.5)
 
-    btn = ((lcd.SELECT, 'Select', lcd.ON),
-           (lcd.LEFT  , 'Left'  , lcd.RED),
-           (lcd.UP    , 'Up'    , lcd.BLUE),
-           (lcd.DOWN  , 'Down'  , lcd.GREEN),
-           (lcd.RIGHT , 'Right' , lcd.VIOLET))
+    btn = ((lcd.SELECT, 'Select = Teal', lcd.ON),
+           (lcd.LEFT  , 'Left = Red'  , lcd.RED),
+           (lcd.UP    , 'Up = Blue'    , lcd.BLUE),
+           (lcd.DOWN  , 'Down = Green'  , lcd.GREEN),
+           (lcd.RIGHT , 'Right = Violet' , lcd.VIOLET))
     
     print "Try buttons on plate"
     lcd.clear()
